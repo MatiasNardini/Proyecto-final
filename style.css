@@ -20,9 +20,26 @@ body {
 }
 
 .logo:hover {
-  transform: scale(2);
-  transition: 0.5s;
-}
+ animation: Change-things 4s; }
+
+ @keyframes Change-things {
+    0% {
+      scale: 0.5;
+      }
+    15% {
+      width: 100px;
+          }
+    50% {
+      background-color: rgb(71, 71, 252);
+      border-radius: 50%;
+
+    }
+    100% {
+      rotate: -0.25turn;
+    }
+ }
+
+ 
 
 .ul {
   display: flex;
