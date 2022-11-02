@@ -194,6 +194,24 @@ h1 {
 
 
 }
+
+.button-final {
+  width: 100px;
+  height: 25px;
+  background-color: grey;
+
+}
+
+.button-final-1 {
+  text-decoration: none;
+  color: black;
+  
+ 
+}
+
+.input-1 {
+  display: none;
+}
 /* Media query de productos */
 
 
