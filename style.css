@@ -20,26 +20,30 @@ body {
 }
 
 .logo:hover {
- animation: Change-things 4s; }
+  animation: Change-things 4s;
+}
 
- @keyframes Change-things {
-    0% {
-      scale: 0.5;
-      }
-    15% {
-      width: 100px;
-          }
-    50% {
-      background-color: rgb(71, 71, 252);
-      border-radius: 50%;
+@keyframes Change-things {
+  0% {
+    scale: 0.5;
+  }
 
-    }
-    100% {
-      rotate: -0.25turn;
-    }
- }
+  15% {
+    width: 100px;
+  }
 
- 
+  50% {
+    background-color: rgb(71, 71, 252);
+    border-radius: 50%;
+
+  }
+
+  100% {
+    rotate: -0.25turn;
+  }
+}
+
+
 
 .ul {
   display: flex;
@@ -83,6 +87,16 @@ h1 {
 
 }
 
+.reviews-ppl {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
 .img-review {
   width: 100%;
   height: 100%;
@@ -112,6 +126,7 @@ h1 {
   width: 100%;
   margin: 10px;
 }
+
 .form {
   flex: 1 1 30rem;
   padding: 3rem 2rem;
@@ -149,11 +164,22 @@ h1 {
   .ul {
     flex-direction: column;
   }
+
   .reviews-container {
-    grid-column: 1/ span 3; grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 300px;
+    grid-column: 1/ span 3;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
   }
-}
+
+  .reviews-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .img-class {
+    grid-column-start: span 4;
+  }
+
+
 
 
 
@@ -166,8 +192,9 @@ h1 {
 
 @media (max-width:768px) {
   .gallery-container {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
+
   .gallery-item {
     grid-column-start: span 2;
   }
