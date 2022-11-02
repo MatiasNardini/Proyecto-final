@@ -21,6 +21,7 @@ body {
 
 .logo:hover {
   transform: scale(2);
+  transition: 0.5s;
 }
 
 .ul {
@@ -55,8 +56,11 @@ h1 {
 }
 
 .reviews-container {
-  display: flex;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  padding: 20px;
+  grid-gap: 100px;
 
 
 }
@@ -108,6 +112,13 @@ h1 {
 .img-tw {
   width: 45px;
 }
+
+
+
+
+
+/* Media querys  */
+
 
 @media (max-width:768px) {
   .gallery-container {
