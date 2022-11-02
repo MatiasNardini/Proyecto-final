@@ -148,14 +148,27 @@ h1 {
   width: 45px;
 }
 
+.img-fc:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
 .img-ig {
   width: 45px;
+}
+.img-ig:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 
 .img-tw {
   width: 45px;
 }
 
+.img-tw:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
 
 
 /* Media query de index */
