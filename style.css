@@ -60,12 +60,17 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 300px;
   padding: 20px;
+  margin: 100px;
   grid-gap: 100px;
 
 
 }
 
-
+.img-review {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
@@ -82,8 +87,8 @@ h1 {
 .contacto .map {
   flex: 1 1 1 30rem;
   width: 100%;
+  margin: 10px;
 }
-
 .form {
   flex: 1 1 30rem;
   padding: 3rem 2rem;
