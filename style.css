@@ -96,6 +96,10 @@ h1 {
   padding: 10px;
 }
 
+h1:hover::after {
+  content: '🎨';
+}
+
 .h2-2 {
   display: flex;
   justify-content: center;
