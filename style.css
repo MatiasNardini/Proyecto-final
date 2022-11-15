@@ -8,7 +8,7 @@ body {
   background-image: url(./images/fondo-css.webp);
 }
 
-.container-fluid {
+.bg-header {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -22,6 +22,7 @@ body {
   
   width: 100%;
 }
+
 
 
 
@@ -95,6 +96,12 @@ h1 {
   padding: 10px;
 }
 
+.h2-2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(13, 87, 62);
+}
+
 .reviews-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -153,6 +160,10 @@ h1 {
 
 }
 
+#contacto {
+  padding: 30px;
+  margin: 0px;
+}
 
 
 
