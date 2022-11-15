@@ -68,12 +68,14 @@ li {
 .primer-imagen img {
   height: 869px;
   width: 100%;
+  
 
 }
 
 
 h1 {
   text-align: center;
+  padding: 10px;
 }
 
 .reviews-container {
@@ -197,7 +199,7 @@ h1 {
 
 .button-final {
   width: 100px;
-  height: 25px;
+  height: 50px;
   background-color: grey;
 
 }
@@ -224,6 +226,8 @@ h1 {
     grid-column-start: span 2;
   }
 }
+
+
 
 
 
