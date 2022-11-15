@@ -8,14 +8,31 @@ body {
   background-image: url(./images/fondo-css.webp);
 }
 
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsla(160, 72%, 72%, 0.363);
+  width: 100%;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  width: 100%;
+}
 
-.item-nav {
+
+
+
+.nav-link {
   padding: 10px 30px;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
-.item-nav:hover {
+.nav-link:hover {
   background: rgba(50, 61, 53, 0.336);
 }
 
