@@ -1,0 +1,56 @@
+/* Main */
+.primer-imagen img {
+    height: 869px;
+    width: 100%;
+    
+  
+  }
+  
+  
+  h1 {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1:hover::after {
+    content: '🎨';
+  }
+  
+  .h2-2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(13, 87, 62);
+  }
+  
+  .reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    margin: 100px;
+    grid-gap: 100px;
+  
+  
+  }
+  
+  .reviews-ppl {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .img-review {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .img-class {
+    position: relative;
+  }
+  
+  
