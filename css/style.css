@@ -206,18 +206,15 @@ h1:hover::after {
   padding: 20px;
   grid-gap: 100px;
 }
-
-.gallery-img {
+.gallery-container .gallery-item {
+  position: relative;
+}
+.gallery-container .gallery-item .gallery-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-.gallery-item {
-  position: relative;
-}
-
-.gallery-title {
+.gallery-container .gallery-item .gallery-title {
   position: absolute;
   bottom: 0;
   color: white;
