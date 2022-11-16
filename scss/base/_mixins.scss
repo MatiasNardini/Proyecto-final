@@ -1,0 +1,14 @@
+@mixin botones($relleno, $borde, $redondeado) {
+    padding: $relleno;
+    border: $borde;
+    border-radius: $redondeado;
+    
+}
+.cancel-dos {
+    @include botones(20px, 1px solid black, 10%)
+
+}
+
+.disabled-dos  {
+    @include botones(10px, 3px solid gray, 20%)
+}
