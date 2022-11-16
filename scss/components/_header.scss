@@ -4,83 +4,72 @@
     justify-content: space-around;
     background-color: hsla(160, 72%, 72%, 0.363);
     width: 100%;
-    
+
     .navbar-nav {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        
+
         width: 100%;
-      }
         .nav-link {
-        padding: 10px 30px;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        
-        &:hover {
-            background: rgba(50, 61, 53, 0.336);
-          }
+            padding: 10px 30px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
     
-    }
+            &:hover {
+                background: rgba(50, 61, 53, 0.336);
+            }
+    
             .ul {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: hsla(160, 72%, 72%, 0.363);
-        width: 100%;
-      
-      }
-                    .li {
-        display: flex;
-        text-decoration: none;
-      }
-                        .logo {
-        width: 95px;
-      
-      }
-                        &:hover {
-                            animation: Change-things 4s;
-                        }
-                        @keyframes Change-things {
-                            0% {
-                              scale: 0.5;
-                            }
-                          
-                            15% {
-                              width: 100px;
-                            }
-                          
-                            50% {
-                              background-color: rgb(71, 71, 252);
-                              border-radius: 50%;
-                          
-                            }
-                          
-                            100% {
-                              rotate: -0.25turn;
-                            }
-                          }
-
-
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: hsla(160, 72%, 72%, 0.363);
+                width: 100%;
+        
+                .li {
+                    display: flex;
+                    text-decoration: none;
+                    .logo {
+                        width: 95px;
+                
                     }
+                
+                    &:hover {
+                        animation: Change-things 4s;
+                    }
+                
+                    @keyframes Change-things {
+                        0% {
+                            scale: 0.5;
+                        }
+                
+                        15% {
+                            width: 100px;
+                        }
+                
+                        50% {
+                            background-color: rgb(71, 71, 252);
+                            border-radius: 50%;
+                
+                        }
+                
+                        100% {
+                            rotate: -0.25turn;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
-  
-  
-  
-  
-  
+    
 
-  
-  
-  
+    
 
-  
-  
-  
-  
+    
 
-  
+    
 
-  
 
-  
+}

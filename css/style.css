@@ -11,29 +11,29 @@
   justify-content: space-around;
   width: 100%;
 }
-.bg-header .nav-link {
+.bg-header .navbar-nav .nav-link {
   padding: 10px 30px;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.bg-header .nav-link:hover {
+.bg-header .navbar-nav .nav-link:hover {
   background: rgba(50, 61, 53, 0.336);
 }
-.bg-header .ul {
+.bg-header .navbar-nav .nav-link .ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: hsla(160deg, 72%, 72%, 0.363);
   width: 100%;
 }
-.bg-header .li {
+.bg-header .navbar-nav .nav-link .ul .li {
   display: flex;
   text-decoration: none;
 }
-.bg-header .logo {
+.bg-header .navbar-nav .nav-link .ul .li .logo {
   width: 95px;
 }
-.bg-header:hover {
+.bg-header .navbar-nav .nav-link .ul .li:hover {
   animation: Change-things 4s;
 }
 @keyframes Change-things {
