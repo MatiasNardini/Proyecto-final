@@ -230,4 +230,48 @@ h1:hover::after {
   padding: 10px;
 }
 
+/*  Listas*/ /* todos los valores internos son de la misma familia */ /* Mapas agrupar varios valores sin necesidad que sean la misma familia */
+/* Aplicacion de un mapa */
+.dark {
+  /* funcion de map-get */
+  background-color: black;
+}
+
+/* % --> placeholder + nombre */
+.disabled, .accept, .error {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+}
+
+/* Boton de error, ok, cancel, disabled */
+.error {
+  background-color: red;
+}
+
+.accept {
+  background-color: green;
+}
+
+.disabled {
+  background-color: gray;
+}
+
+.cancel-dos {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.disabled-dos {
+  padding: 10px;
+  border: 3px solid gray;
+  border-radius: 20%;
+}
+
 /*# sourceMappingURL=style.css.map */

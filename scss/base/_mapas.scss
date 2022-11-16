@@ -1,0 +1,16 @@
+/* Mapas agrupar varios valores sin necesidad que sean la misma familia */
+
+$dark: (
+    /* key - valor */
+    bg-color-dark: black,
+    font-dark: 36px,
+    bg-image-dark: attachment
+);
+
+
+/* Aplicacion de un mapa */
+
+.dark {
+    /* funcion de map-get */
+    background-color: map-get($dark, bg-color-dark);
+}
