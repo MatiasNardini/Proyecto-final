@@ -18,31 +18,11 @@
     display: none;
 }
 
-.contacto {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-
-
-
-.contacto .map {
-    flex: 1 1 1 30rem;
-    width: 100%;
-
-}
-
 .form {
     flex: 1 1 30rem;
     padding: 3rem 2rem;
 
 
-}
-
-#contacto {
-    padding: 30px;
-    margin: 0px;
 }
 
 
@@ -52,31 +32,34 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
 
-.img-fc {
+
+    .img-fc {
     width: 45px;
-}
+        &:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+        }
+    }
 
-.img-fc:hover {
-    transform: scale(1.5);
-    transition: 0.5s;
-}
 
-.img-ig {
+
+    .img-ig {
     width: 45px;
-}
+        &:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+        }
+    }
 
-.img-ig:hover {
-    transform: scale(1.5);
-    transition: 0.5s;
-}
 
-.img-tw {
+
+    .img-tw {
     width: 45px;
-}
+        &:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+        }
+    }
 
-.img-tw:hover {
-    transform: scale(1.5);
-    transition: 0.5s;
 }

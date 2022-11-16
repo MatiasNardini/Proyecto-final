@@ -36,11 +36,9 @@
   width: 95px;
   height: auto;
 }
-
 #logo:hover {
   animation: Change-things 4s;
 }
-
 @keyframes Change-things {
   0% {
     scale: 0.5;
@@ -56,15 +54,28 @@
     rotate: -0.25turn;
   }
 }
+
 /* Body */
 * {
   margin: 1;
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+* body {
   background-image: url(../images/fondo-css.webp);
+}
+* .contacto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+* .contacto .map {
+  flex: 1 1 1 30rem;
+  width: 100%;
+}
+* #contacto {
+  padding: 30px;
+  margin: 0px;
 }
 
 /* footer */
@@ -83,25 +94,9 @@ body {
   display: none;
 }
 
-.contacto {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.contacto .map {
-  flex: 1 1 1 30rem;
-  width: 100%;
-}
-
 .form {
   flex: 1 1 30rem;
   padding: 3rem 2rem;
-}
-
-#contacto {
-  padding: 30px;
-  margin: 0px;
 }
 
 .redes {
@@ -109,30 +104,24 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-
-.img-fc {
+.redes .img-fc {
   width: 45px;
 }
-
-.img-fc:hover {
+.redes .img-fc:hover {
   transform: scale(1.5);
   transition: 0.5s;
 }
-
-.img-ig {
+.redes .img-ig {
   width: 45px;
 }
-
-.img-ig:hover {
+.redes .img-ig:hover {
   transform: scale(1.5);
   transition: 0.5s;
 }
-
-.img-tw {
+.redes .img-tw {
   width: 45px;
 }
-
-.img-tw:hover {
+.redes .img-tw:hover {
   transform: scale(1.5);
   transition: 0.5s;
 }

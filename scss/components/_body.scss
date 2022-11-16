@@ -4,8 +4,32 @@
     margin: 1;
     padding: 0;
     box-sizing: border-box;
-  }
+
   
-  body {
+    body {
     background-image: url(../images/fondo-css.webp);
-  }
+    }
+
+    .contacto {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        .map {
+            flex: 1 1 1 30rem;
+            width: 100%;
+    
+        }
+    }
+
+
+
+
+
+
+
+
+    #contacto {
+        padding: 30px;
+        margin: 0px;
+    }
+}

@@ -48,30 +48,29 @@
     display: flex;
     width: 95px;
     height: auto;
-
+    &:hover {
+        animation: Change-things 4s;
+      }
+      
+      @keyframes Change-things {
+        0% {
+          scale: 0.5;
+        }
+      
+        15% {
+          width: 100px;
+        }
+      
+        50% {
+          background-color: rgb(71, 71, 252);
+          border-radius: 50%;
+      
+        }
+      
+        100% {
+          rotate: -0.25turn;
+        }
+    }
                          
 }
 
-#logo:hover {
-    animation: Change-things 4s;
-  }
-  
-  @keyframes Change-things {
-    0% {
-      scale: 0.5;
-    }
-  
-    15% {
-      width: 100px;
-    }
-  
-    50% {
-      background-color: rgb(71, 71, 252);
-      border-radius: 50%;
-  
-    }
-  
-    100% {
-      rotate: -0.25turn;
-    }
-}
