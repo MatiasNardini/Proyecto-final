@@ -1,23 +1,4 @@
 /* footer */
-
-.button-final {
-    width: 100px;
-    height: 50px;
-    background-color: grey;
-
-}
-
-.button-final-1 {
-    text-decoration: none;
-    color: black;
-
-
-}
-
-.input-1 {
-    display: none;
-}
-
 .form {
     flex: 1 1 30rem;
     padding: 3rem 2rem;
@@ -27,12 +8,27 @@
 
 
 
-
 .redes {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
+    .button-final {
+        width: 100px;
+        height: 50px;
+        background-color: grey;
+        
+        .input-1 {
+            display: none;
+        }
+        .button-final-1 {
+            text-decoration: none;
+            color: black;
+            
+            
+        
+        }
+    }
 
     .img-fc {
     width: 45px;
