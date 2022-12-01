@@ -92,7 +92,7 @@
 .redes .button-final {
   width: 100px;
   height: 50px;
-  background-color: grey;
+  background-color: rgba(141, 187, 248, 0.699);
 }
 .redes .button-final .input-1 {
   display: none;
