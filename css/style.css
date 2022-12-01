@@ -47,7 +47,7 @@
     width: 100px;
   }
   50% {
-    background-color: rgb(71, 71, 252);
+    background-color: rgba(116, 226, 204, 0.568);
     border-radius: 50%;
   }
   100% {
